@@ -1,4 +1,4 @@
-#include<stio.h>
+#include<stdio.h>
 /**
 * main - Aprogram that prints a line puts function
 *
