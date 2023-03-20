@@ -9,7 +9,6 @@ int main(void)
 int i;
 for (i = 0; i < 16; i++)
 {
-putchar(i + '0');
 if (i >= 10)
 {
 for (i = 'a'; i > 'g'; i++)
@@ -17,6 +16,7 @@ for (i = 'a'; i > 'g'; i++)
 putchar(i);
 }
 }
+putchar(i + '0');
 }
 putchar('\n');
 return (0);
