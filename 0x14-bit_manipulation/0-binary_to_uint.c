@@ -15,11 +15,6 @@ unsigned int binary_to_uint(const char *b)
         if (!b)
                 return (0);
 
-        // Check if the binary string is within the limits of unsigned int
-        size_t binary_len = strlen(b);
-        if (binary_len > (sizeof(unsigned int) * 8))
-                return (0);
-
         for (g = 0; b[g]; g++)
         {
                 if (b[g] < '0' || b[g] > '1')
